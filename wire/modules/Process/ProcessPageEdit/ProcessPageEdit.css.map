@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AACH,AAAA,uBAAuB,GAAG,EAAE,AAAA,YAAY,CAAC;EACxC,KAAK,EAAE,IAAI;CACX;;AAED;;;;;GAKG;AACH,AACC,sBADqB,CACrB,0BAA0B;AAD3B,sBAAsB,CAErB,eAAe;AAFhB,sBAAsB,CAGrB,wBAAwB;AAHzB,sBAAsB,CAIrB,YAAY;AAJb,sBAAsB,CAKrB,gBAAgB,CAAC;EAChB,OAAO,EAAE,IAAI;CACb;;AAGF,AAAA,gBAAgB,CAAC;EAChB,OAAO,EAAE,IAAI;CACb;;AAED,AAAA,qBAAqB,CAAC;EACrB,aAAa,EAAE,YAAY;CAC3B;;AAED,AAAA,mCAAmC,CAAC;EACnC,MAAM,EAAE,OAAO;EACf,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;EAClB,eAAe,EAAE,IAAI;CACrB;;AAED;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EA8CE",
+    "sources": [
+        "ProcessPageEdit.scss"
+    ],
+    "names": [],
+    "file": "ProcessPageEdit.css"
+}

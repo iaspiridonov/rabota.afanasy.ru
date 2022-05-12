@@ -1,0 +1,19 @@
+2022-05-06 02:22:55	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
+2022-05-06 02:39:31	admin	http://rabota-afanasy.is/admin/login/backup/	Successful login for 'admin'
+2022-05-13 00:48:10	admin	http://rabota-afanasy.is/admin/login/	Successful login for 'admin'
+2022-05-13 01:24:33	superadmin	http://rabota-afanasy.is/admin/login/logout/	Logout for 'superadmin'
+2022-05-13 01:24:35	guest	http://rabota-afanasy.is/admin/login/	Error: Failed login for 'admin' - Unknown user
+2022-05-13 01:24:41	superadmin	http://rabota-afanasy.is/admin/login/	Successful login for 'superadmin'
+2022-05-13 01:25:56	superadmin	http://rabota-afanasy.is/admin/login/logout/	Logout for 'superadmin'
+2022-05-13 01:26:13	superadmin	http://rabota-afanasy.is/admin/login/	Successful login for 'superadmin'
+2022-05-13 01:28:04	superadmin	http://rabota-afanasy.is/admin/login/logout/	Logout for 'superadmin'
+2022-05-13 01:28:09	guest	http://rabota-afanasy.is/admin/login/	Error: Failed login for 'admin' - Invalid password
+2022-05-13 01:28:15	admin	http://rabota-afanasy.is/admin/login/	Successful login for 'admin'
+2022-05-13 01:28:56	admin	http://rabota-afanasy.is/admin/login/logout/	Logout for 'admin'
+2022-05-13 01:29:03	superadmin	http://rabota-afanasy.is/admin/login/	Successful login for 'superadmin'
+2022-05-13 01:29:44	admin	http://rabota-afanasy.is/admin/login/edit/?id=1066	Successful login for 'admin'
+2022-05-13 01:44:43	?	?	User 'superadmin' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
+2022-05-13 01:51:15	guest	http://rabota-afanasy.is/admin/login/	Error: Failed login for 'admin' - Invalid password
+2022-05-13 01:51:22	admin	http://rabota-afanasy.is/admin/login/	Successful login for 'admin'
+2022-05-13 01:51:39	admin	http://rabota-afanasy.is/admin/login/logout/	Logout for 'admin'
+2022-05-13 01:51:50	superadmin	http://rabota-afanasy.is/admin/login/	Successful login for 'superadmin'

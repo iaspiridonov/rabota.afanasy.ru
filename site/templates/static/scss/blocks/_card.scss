@@ -1,0 +1,32 @@
+.card {
+    display: block;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+    border: 1px dashed $color-gray-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    padding: 15px 30px;
+    
+    &:hover {
+        
+        & .card__title {
+            color: $color-primary;
+        }
+    }
+    
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        transition: .3s;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    &__vacancies {
+        color: $color-gray-text;
+        font-size: 14px;
+    }
+}

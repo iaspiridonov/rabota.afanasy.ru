@@ -1,0 +1,59 @@
+.button {
+    padding: 16px 30px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 6px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s;
+    
+    &:hover {
+        color: #fff;
+        background-color: $color-primary;
+        border-color: $color-primary;
+    }
+    
+    &--small {
+        font-size: 16px;
+        text-transform: none;
+    }
+    
+    &--primary {
+        color: $color-primary;
+        border-color: $color-primary;
+        
+        &:hover {
+            color: #fff;
+            background-color: $color-primary;
+        }
+    }
+    
+    &--primary-inverted {
+        color: #fff;
+        background-color: $color-primary;
+        
+        &:hover {
+            background-color: $color-blue;
+            border-color: $color-blue;
+        }
+    }
+    
+    &--purple {
+        background: $gradient-purple;
+        border: none;
+        
+        &:hover {
+            opacity: .9;
+        }
+    }
+}
+
+
+

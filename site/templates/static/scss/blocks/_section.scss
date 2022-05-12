@@ -1,0 +1,116 @@
+.section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+    @media (min-width: $md) {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    @media (min-width: $lg) {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+    
+    &--secondary {
+        @media (min-width: $lg) {
+            min-height: 800px;
+            height: 100vh;
+        }
+    }
+    
+    &--promo {
+        background-image: url('../img/main-bg.jpg');
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 90px;
+        min-height: 750px;
+        
+        @media (min-width: $lg) {
+            min-height: 800px;
+            height: 100vh;
+        }
+    }
+    
+    &--bg-contacts {
+        
+        @media (min-width: $lg) {
+            
+            & .container {
+                padding-bottom: 200px;
+            }
+            
+            & .bg-word {
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    
+    &--bg-history {
+        
+        @media (min-width: $lg) {
+            
+            & .container {
+                padding-bottom: 200px;
+            }
+            
+            & .bg-word {
+                bottom: 0;
+                left: 0;
+                writing-mode: tb-rl;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    
+    &--bg-vacancy {
+        
+        @media (min-width: $lg) {
+            & .bg-word {
+                writing-mode: tb-rl;
+                transform: rotate(180deg);
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+    
+    &--bg-bonuses {
+        @media (min-width: $lg) {
+            padding-bottom: 0;
+            
+            & .bg-word {
+                bottom: 0;
+            }
+            
+            & .container {
+                padding-bottom: 180px;
+            }
+        }
+    }
+    
+    &--bg-gray {
+        background-color: $color-gray;
+    }
+    
+    &--bg-agitation {
+        
+        @media (min-width: $lg) {
+            padding-top: 0;
+            
+            & .container {
+                padding-top: 120px;
+                background-image: url('../img/logo-transparent.svg');
+                background-repeat: no-repeat;
+                background-position-x: right;
+                background-position-y: 50px;
+            }
+        }
+    }
+}

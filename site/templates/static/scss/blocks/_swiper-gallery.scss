@@ -1,0 +1,40 @@
+.swiper-gallery {
+    --swiper-navigation-color: #107C10;
+    --swiper-theme-color: #107C10;
+    width: 80%;
+    
+    @media (min-width: $sm) {
+        width: 85%;
+    }
+    
+    @media (min-width: $md) {
+        width: 90%;
+    }
+    
+    &~.agitation__pagination-item--next, &~.agitation__pagination-item--prev {
+        --swiper-navigation-color: #107C10;
+        --swiper-theme-color: #107C10;
+    }
+    
+    
+    & .swiper-gallery-slide {
+        & img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            height: 200px;
+            
+            @media (min-width: $lg) {
+                height: 250px;
+            }
+        }
+    }
+    
+    & .agitation__pagination-item--next {
+        
+    }
+    
+    & .agitation__pagination-item--prev {
+        
+    }
+}

@@ -1,0 +1,2 @@
+2022-05-13 01:04:29	admin	http://rabota-afanasy.is/admin/page/edit/?id=1062&InputfieldFileAjax=1	GD Resized: offer.png => offer.260x0.png (260x0) 0.5277 secs 182637 => 149198 bytes (quality=90, sharpening=soft)
+2022-05-13 01:09:28	admin	http://rabota-afanasy.is/admin/page/edit/?id=1064&InputfieldFileAjax=1	GD Resized: gal-agitation-7.png => gal-agitation-7.260x0.png (260x0) 0.1967 secs 168449 => 94620 bytes (quality=90, sharpening=soft)

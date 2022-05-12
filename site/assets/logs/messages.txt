@@ -1,0 +1,1 @@
+2022-05-13 01:21:36	admin	http://rabota-afanasy.is/admin/setup/field/send-templates-save?id=117	Deleted field "short_description" data in 0 row(s) from 0 page(s) using template "vacancies". [page-by-page] (Fields)

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,SAAS,CAAA,KAAC;EACV,aAAa,CAAA,KAAC;EACd,aAAa,CAAA,KAAC;CAOf;;AAVD,AAKE,oBALkB,AAKjB,gBAAgB,GAAG,YAAY,CAAC;EAC/B,SAAS,CAAA,KAAC;EACV,aAAa,CAAA,KAAC;EACd,aAAa,CAAA,KAAC;CACf",
+    "sources": [
+        "mmenu.fullscreen.scss"
+    ],
+    "names": [],
+    "file": "mmenu.fullscreen.css"
+}

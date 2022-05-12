@@ -1,0 +1,61 @@
+.promo {
+    height: 100%;
+    display: flex;
+    padding-top: 100px;
+    
+    @media (min-width: $md) {
+        padding-top: 0;
+    }
+    
+    &__title {
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        color: #FFFFFF;
+
+        
+        &--big {
+            font-size: 48px;
+            
+            @media (min-width: $md) {
+                font-size: 100px;
+            }
+        }
+        
+        &--small {
+            font-size: 30px;
+            color: $color-orange;
+            
+            @media (min-width: $md) {
+                font-size: 48px;
+            }
+        }
+        
+        &--first {
+            margin-bottom: 40px;   
+        }
+        
+        &--second {
+            margin-bottom: 20px;
+            
+            @media (min-width: $md) {
+                margin-bottom: 40px;
+            }
+        }
+        
+        &--third {
+            margin-bottom: 20px;
+            
+            @media (min-width: $md) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    &__scroll {
+        position: absolute;
+        bottom: 20px;
+        left: calc(50% - 12px);
+    }
+}

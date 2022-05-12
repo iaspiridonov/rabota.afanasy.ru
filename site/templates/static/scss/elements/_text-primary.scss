@@ -1,0 +1,8 @@
+.text-primary {
+    color: $color-orange !important;
+    
+    & b {
+        font-family: $font-family-headings;
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,14 @@
+.big-link {
+    color: $color-primary;
+    font-size: 34px;
+    font-family: $font-family-headings;
+    
+    @media (min-width: $sm) {
+        font-size: 48px;
+    }
+    
+    &:hover {
+        color: $color-primary;
+        text-decoration: underline;
+    }
+}

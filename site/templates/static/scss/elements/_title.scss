@@ -1,0 +1,7 @@
+.title {
+    font-size: 64px !important;
+
+    @media (min-width: $lg) {
+        font-size: 100px !important;
+    }
+}

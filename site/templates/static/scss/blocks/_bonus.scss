@@ -1,0 +1,21 @@
+.bonus {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: flex-start;
+    
+    @media (min-width: $lg) {
+        margin-bottom: 60px;
+    }
+    
+    &__title {
+        height: 100%;
+        padding-left: 15px;
+        margin-left: 15px;
+        border-left: 1px solid #E0E2E7;
+        min-height: 50px;
+    }
+    
+    & img {
+        
+    }
+}

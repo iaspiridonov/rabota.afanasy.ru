@@ -1,0 +1,15 @@
+.offers-list {
+    
+    @media (max-width: 991.98px) {
+        display: flex;
+        flex-wrap: wrap;
+        
+        & > * {
+            margin-right: 15px;
+        } 
+    }
+    
+    @media (max-width: 575.98px) {
+        flex-direction: column;
+    }
+}

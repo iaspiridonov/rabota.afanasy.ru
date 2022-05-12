@@ -1,0 +1,29 @@
+.find {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E2E7;
+    padding-bottom: 6px;
+    
+    & input[type='text'] {
+        border: none;
+        width: 100%;
+        font-weight: 300;
+        
+        &::placeholder {
+            color: $color-gray-text;    
+        }
+    }
+    
+    & input[type='submit'] {
+        margin-right: 10px;
+        font-size: 0;
+        background-image: url('../img/icon/ico-search.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        border: none;
+        background-color: transparent;
+    }
+}

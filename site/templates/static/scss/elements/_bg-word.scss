@@ -1,0 +1,15 @@
+.bg-word {    
+    display: none;
+    
+    @media (min-width: $lg) {
+        font-family: 'Fira Sans';
+        font-weight: 800;
+        font-size: 180px;
+        color: #2C2D2E;
+        opacity: 0.03;
+        position: absolute;
+        line-height: 0.85;
+        display: block;
+        text-transform: uppercase;
+    }
+}
