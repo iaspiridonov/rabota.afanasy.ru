@@ -8,10 +8,10 @@
                 <div class="u-h2">Вакансии</div>
             </div>
             <div class="col-lg-8 u-my-4">
-                <form action="#">
+                <form action="/vacancies/" method="GET">
                     <div class="find">
                         <input type="submit">
-                        <input type="text" name="search" placeholder="Поиск по вакансиям">
+                        <input type="text" name="search" placeholder="Поиск по вакансиям" value="<?= $input->get('search') ?>">
                     </div>
                 </form>
             </div>
@@ -20,7 +20,7 @@
             <?php foreach ($page->find('template=basic-page') as $p): ?>
                 <?php $i++ ?>
                 <div class="col-lg-4 col-sm-6 u-mb-4 <?= $i % 2 == 1 ? 'offset-lg-4' : '' ?>">
-                    <a href="/vacancies" class="card">
+                    <a href="/vacancies/?sort=<?= $p ?>" class="card">
                         <div class="card__title">
                             <?= $p->title ?>
                         </div>

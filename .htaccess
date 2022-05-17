@@ -215,10 +215,10 @@ DirectoryIndex index.php index.html index.htm
   
   # 9D. Store current scheme in a 'proto' environment variable for later use
   # -----------------------------------------------------------------------------------------------
-  RewriteCond %{HTTPS} =on
-  RewriteRule ^ - [env=proto:https]
-  RewriteCond %{HTTPS} !=on
-  RewriteRule ^ - [env=proto:http]
+  # RewriteCond %{HTTPS} =on
+  # RewriteRule ^ - [env=proto:https]
+  # RewriteCond %{HTTPS} !=on
+  # RewriteRule ^ - [env=proto:http]
   
  
   # 9E. If using load balancer/AWS or behind proxy, use lines below rather than 9D: (L)

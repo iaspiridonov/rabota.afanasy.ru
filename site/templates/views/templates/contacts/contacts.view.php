@@ -9,7 +9,7 @@
                     <div class="u-h2">Центральный офис холдинга</div>
                 </div>
                 <div><b>Телефон:</b> <?= $g_settings->phone ?></div>
-                <div><b>E-mail:</b> Hr@afanasy.ru</div><br>
+                <div><b>E-mail:</b> <?= $g_settings->email ?></div><br>
                 <div><b>Адрес:</b> Тверь, ул. Коминтерна, д. 95</div>
             </div>
             <div class="col-lg-8">

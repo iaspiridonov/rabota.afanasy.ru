@@ -119,7 +119,6 @@
                             <a href="/"><img src="/site/templates/static/img/logo-gray.svg" alt="logo" class="footer__logo"></a>
                             <button class="button button--small button--primary open-popup">Отправить резюме</button>
                             <div class="footer__list">
-                                <a target="_blank" href="https://www.afanasy.ru/company/vakansy/" class="footer__list-item">Подписаться на вакансии</a>
                                 <a target="_blank" href="https://www.afanasy.ru/novosti/nashi-novosti/" class="footer__list-item">Читать блог холдинга</a>
                                 <a target="_blank" href="https://www.afanasy.ru/company/presentation/" class="footer__list-item">Все об экосистеме Афанасий</a>
                                 <a target="_blank" href="https://www.afanasy.ru/" class="footer__list-item">Сайт холдинга Афанасий</a>
@@ -130,7 +129,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="footer__copy">
-                            © ООО «Афанасий» 2021. Политика о данных пользователей.
+                            © ООО «Афанасий» <?= date('Y') ?>. Политика о данных пользователей.
                         </div>
                     </div>
                 </div>
@@ -147,7 +146,8 @@
                 </div>
 
                 <div class="u-font-size-24 u-mb-3"><b>Откликнуться на вакансию</b></div>
-                <form action="#" class="offer-form">
+                <form action="#" class="offer-form js-form-popup">
+                    <input type="hidden" value="<?= $page->title ?>" name="page">
                     <div class="offer-form__input">
                         <label for="name">Имя</label>
                         <input name="name" id="name" type="text" placeholder="Как вас зовут?">
@@ -169,7 +169,7 @@
                     </div>
                     <div class="offer-form__copy u-mb-3">Отправляя данные, вы соглашаетесь с условиями передачи персональных данных и принимаете <a href="#">политику конфиденциальности.</a></div>
                     <div class="u-text-center">
-                        <button type="submit" class="button button--small button--primary-inverted open-popup">Отправить резюме</button>
+                        <button type="submit" class="button button--small button--primary-inverted">Отправить резюме</button>
                     </div>
                 </form>
             </div>

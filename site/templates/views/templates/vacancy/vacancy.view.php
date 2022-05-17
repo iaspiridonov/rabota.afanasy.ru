@@ -20,7 +20,8 @@
                         <?= $page->short_description ?>
                     </div>
                     <div class="u-font-size-24 u-mb-3"><b>Откликнуться на вакансию</b></div>
-                    <form action="#" class="offer-form">
+                    <form action="#" class="offer-form js-form-popup">
+                        <input type="hidden" name="title" value="<?= $page->title ?>">
                         <div class="offer-form__input">
                             <label for="name">Имя</label>
                             <input name="name" id="name" type="text" placeholder="Как вас зовут?">

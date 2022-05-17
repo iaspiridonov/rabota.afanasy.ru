@@ -74,7 +74,6 @@ $(document).ready(function () {
 	
 	// POPUP
 	openPopupButtons.forEach((button) => { // Перебираем все кнопки
-		console.log(button);
 		
 		button.addEventListener('click', (e) => { // Для каждой вешаем обработчик событий на клик
 			e.preventDefault(); // Предотвращаем дефолтное поведение браузера
@@ -95,4 +94,28 @@ $(document).ready(function () {
 		popup.classList.remove('active'); // И с окна
 	});
 	// END popup
+	
+	$(".js-form-popup").submit(function(e){
+		e.preventDefault();
+		$.ajax({
+			type: "POST",
+			url: "/mail-send/",
+			data: $(this).serialize(),
+			success: function(data) {
+				alert('Заявка отправлена!');
+			}
+		});
+	});
+	
+	$(".js-form-vacancies").submit(function(e){
+		e.preventDefault();
+		
+		let idsArr = [];
+		$(this).find('.custom-checkbox__input:checked').each(function() {
+			idsArr.push(this.value);
+		});
+		
+		location.href = "/vacancies/?sort=" + idsArr.join('|');
+	});
+	
 });
