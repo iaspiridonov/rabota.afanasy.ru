@@ -94,16 +94,33 @@ $(document).ready(function () {
 		popup.classList.remove('active'); // И с окна
 	});
 	// END popup
+	$.ajaxSetup({
+		url: "/mail-send/", 
+		type: 'POST',
+		dataType: 'json',
+		beforeSend: function(){
+			console.debug();
+		},
+		error: function(req, text, error){
+		},
+		complete: function(){
+			alert('Заявка отправлена');
+		}
+	});
+	
+	
 	
 	$(".js-form-popup").submit(function(e){
+		var $that = $(this),
+		formData = new FormData($that.get(0));
 		e.preventDefault();
 		$.ajax({
-			type: "POST",
-			url: "/mail-send/",
-			data: $(this).serialize(),
-			success: function(data) {
-				alert('Заявка отправлена!');
-			}
+            contentType: false, 
+            processData: false, 
+            data: formData,
+            success: function (json) {
+				alert('Заявка отправлена');
+        	}
 		});
 	});
 	

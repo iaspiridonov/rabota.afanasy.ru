@@ -20,7 +20,7 @@
                         <?= $page->short_description ?>
                     </div>
                     <div class="u-font-size-24 u-mb-3"><b>Откликнуться на вакансию</b></div>
-                    <form action="#" class="offer-form js-form-popup">
+                    <form action="#" class="offer-form js-form-popup" enctype="multipart/form-data" >
                         <input type="hidden" name="title" value="<?= $page->title ?>">
                         <div class="offer-form__input">
                             <label for="name">Имя</label>
@@ -35,8 +35,8 @@
                             <input name="email" id="email" type="text" placeholder="Ваша электронная почта">
                         </div>
                         <div class="offer-form__input">
-                            <label for="doc">Резюме</label>
-                            <input name="doc" id="doc" type="file" placeholder="Ваша электронная почта">
+                            <label for="file">Резюме</label>
+                            <input name="file" id="file" type="file">
                         </div>
                         <div class="offer-form__input u-mb-2">
                             <textarea name="msg" id="msg" type="text" rows="5" placeholder="Дополнительная информация"></textarea>
